@@ -6,6 +6,8 @@
     <title>E-School</title>
     <!-- Fav-icon -->
     <link rel="shortcut icon" href="./images/fav-icon.png" type="image/x-icon">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!-- Custom CSS -->
@@ -14,14 +16,15 @@
 <body>
 <header>
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#"><img src="./images/Logo.png" class="img-fluid w-100" alt=""></a>
+        <!-- Nav bar -->
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="#"><img src="./images/Logo.png" id="logo" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
                   <a class="nav-link" href="#">Books <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
@@ -33,12 +36,32 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#">Blogs</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                   <a class="nav-link" href="#">Sign in</a>
                 </li>
               </ul>
             </div>
           </nav>
+          <!-- /Nav bar -->
+
+          <!-- Banner -->
+          <div class="banner mt-5">
+              <div class="row">
+                  <div class="col-12 col-md-6 col-lg-6">
+                      <div class="banner-content">
+                          <p id="orange-color">Are you ready to learn?</p>
+                          <h1 class="mb-5">Learn With fun 
+                            on <span class="green-text">any schedule</span> </h1>
+                            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius blandit facilisis quam netus.</p>
+                            <button class="common-button">Get Started</button>
+                      </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-6">
+                      <img src="./images/Illustration.png" alt="Banner_image" class="img-fluid">
+                  </div>
+              </div>
+          </div>
+          <!-- /Banner -->
     </div>
 </header>
 

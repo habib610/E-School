@@ -1,0 +1,51 @@
+#logo{
+    width: 198px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color: #F0FFF0;
+    padding-bottom: 40px;
+}
+.navbar-light .navbar-nav .nav-link {
+    border-radius: 20px;
+    padding: 8px 20px;
+    color: #000000;
+    font-weight: 500;
+    transition: all ease-in 0.2s;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    background-color: #21B573;
+    color: white;
+}
+.navbar-light .navbar-nav .active .nav-link {
+    color: white;
+    background-color: #21B573;
+}
+
+/* Banner  */
+#orange-color{
+    color: #FD511A;
+}
+h1{
+    font-size: 63px;
+    font-weight: 700;
+}
+.green-text{
+    color: #21B573;
+}
+.common-button{
+    background-color: #21B573;
+    color: #F0FFF0;
+    outline: none;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 20px;
+    font-weight: 500;
+    transition: all ease-in .3s;
+}
+.common-button:hover{
+    background-color: orange;
+}
+/* Banner ends */
