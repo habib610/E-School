@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+/*======== Header ======== */
 #logo{
     width: 198px;
 }
@@ -23,8 +27,9 @@ header{
     color: white;
     background-color: #21B573;
 }
+/* ========Header ends ======== */
 
-/* Banner  */
+/*======== Banner ======== */
 #orange-color{
     color: #FD511A;
 }
@@ -48,4 +53,77 @@ h1{
 .common-button:hover{
     background-color: orange;
 }
-/* Banner ends */
+/*======== Banner ends======== */
+
+
+/* ========categories ======== */
+.cat-box{
+    width: 260px;
+        height: 260px;
+    background-color: #F8FFFB;
+    border-radius: 10px;
+    text-align: center;
+    padding:30px 0;
+    transition: transform ease-in 0.2s;
+}
+.img-control{
+    width: 80px;
+    margin-bottom: 30px;
+}
+.cat-box:hover{
+    background-color: #ffffff;
+    transform: scale(1.1);
+    box-shadow: 10px 10px 20px gray;
+}
+h3{
+    font-size: 25px;
+}
+/*======== categories ends====== */
+
+
+/* =======courses=======  */
+.card{
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px lightgray;
+}
+.width-24{
+    width: 24px;
+}
+h4{
+    font-size: 16px;
+}
+h5{
+    font-weight: 600;
+}
+h2{
+    font-size:36px;
+    font-weight: 700;
+}
+.color-violate{
+    color: #413960;
+}
+.card-footer{
+    background-color: #ffffff;
+    border: 1px;
+}
+/* =======courses ends=======  */
+
+
+/* ======footer====== */
+footer{
+    color: white;
+    background-color: #282531;
+    padding: 50px 0;
+}
+input{
+    color: red;
+}
+footer p a{
+    color: #ffffff;
+    font-weight: 400;
+}
+footer p a:hover{
+    color: #FD511A;
+    text-decoration: none;;
+}
+/* ======footer ends====== */
